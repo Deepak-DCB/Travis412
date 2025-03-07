@@ -12,4 +12,10 @@ public class SimpleCalculatorTest {
 		assertEquals(calc.add(1, 1), 2);
 		//Fixed Test
 	}
+
+	@Test
+	public void testMinus() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.minus(4,3),1);
+	}
 }
