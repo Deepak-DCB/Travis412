@@ -22,7 +22,7 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testMult() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.mult(4,3), 11)
+		assertEquals(calc.mult(4,3), 11);
 	}
 
 	@Test
